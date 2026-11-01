@@ -1,0 +1,14 @@
+# Ignore all CSV data files
+*.csv
+
+# Ignore the trained model
+*.joblib
+
+# Ignore output files (we will keep the folder but ignore the contents)
+output/*
+!output/results.json
+!output/confusion_matrix.png
+
+# Python cache
+__pycache__/
+*.pyc

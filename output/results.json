@@ -1,0 +1,56 @@
+{
+  "accuracy": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1": 1.0,
+  "confusion_matrix": [
+    [
+      484517,
+      0
+    ],
+    [
+      0,
+      15481
+    ]
+  ],
+  "baseline_rule": {
+    "accuracy": 0.9999859999439997,
+    "precision": 0.9999353838201086,
+    "recall": 0.9996124281377172,
+    "f1": 0.9997738798979229
+  },
+  "behaviour_only": {
+    "accuracy": 0.9995559982239929,
+    "precision": 0.9978466557911909,
+    "recall": 0.9877914863380919,
+    "f1": 0.9927936116340973
+  },
+  "behaviour_only_cm": [
+    [
+      484484,
+      33
+    ],
+    [
+      189,
+      15292
+    ]
+  ],
+  "n_train": 1126471,
+  "n_test": 499998,
+  "n_files": 33,
+  "n_test_files": 10,
+  "pct_malicious": 0.023942663524481562,
+  "feature_importance": {
+    "frame_type": 0.2056782429043917,
+    "frame_subtype": 0.066612844743942,
+    "is_deauth": 0.3133053620048373,
+    "length": 0.00270347025619912,
+    "signal_dbm": 0.03799026578059824,
+    "src_fps": 0.08882278687660038,
+    "src_deauth_fps": 0.28260011583342703,
+    "src_unique_dst": 3.5655729582785154e-05,
+    "global_deauth_fps": 0.0012414680484745166,
+    "deauth_ratio": 0.0010097878219471183
+  },
+  "synthetic": false
+}
